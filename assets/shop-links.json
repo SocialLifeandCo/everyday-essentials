@@ -1,0 +1,69 @@
+{
+  "shopAll": "https://payhip.com/u17901776742571242620102",
+  "categories": {
+    "Digital Products": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/digital-products",
+      "publiclyVisible": true,
+      "listingCount": 11
+    },
+    "Party & Events": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/party-events",
+      "publiclyVisible": true,
+      "listingCount": 10
+    },
+    "Seasonal Products": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/seasonal-products",
+      "publiclyVisible": true,
+      "listingCount": 10
+    },
+    "Custom Gifts": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/custom-gifts",
+      "publiclyVisible": true,
+      "listingCount": 2
+    },
+    "Business & Branding": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/business-branding",
+      "publiclyVisible": true,
+      "listingCount": 1
+    },
+    "Beauty": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/beauty",
+      "publiclyVisible": false,
+      "listingCount": 0
+    },
+    "Memorial Products": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/memorial-products",
+      "publiclyVisible": false,
+      "listingCount": 0
+    },
+    "Custom Apparel": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/custom-apparel",
+      "publiclyVisible": false,
+      "listingCount": 0
+    },
+    "Done-For-You Etsy Stores": {
+      "url": "https://payhip.com/u17901776742571242620102/collection/done-for-you-etsy-stores",
+      "publiclyVisible": false,
+      "listingCount": 0
+    },
+    "Drinkware": "PAYHIP_LINK_PENDING",
+    "Flags & Banners": "PAYHIP_LINK_PENDING",
+    "Graduation & Prom": "PAYHIP_LINK_PENDING"
+  },
+  "digital": {
+    "Business Templates": "PAYHIP_LINK_PENDING",
+    "Party & Event Templates": "PAYHIP_LINK_PENDING",
+    "Memorial Templates": "PAYHIP_LINK_PENDING",
+    "Beauty / Nail Designs": "PAYHIP_LINK_PENDING",
+    "Apparel / Shirt Designs": "PAYHIP_LINK_PENDING",
+    "Seasonal Designs": "PAYHIP_LINK_PENDING",
+    "Branding / Social Media Templates": "PAYHIP_LINK_PENDING",
+    "Bundles": "PAYHIP_LINK_PENDING",
+    "Other Digital Downloads": "PAYHIP_LINK_PENDING"
+  },
+  "etsyStoreSetup": {
+    "Mini Launch": "https://payhip.com/b/F0wuT",
+    "Store Launch": "https://payhip.com/b/Fq8uv",
+    "Business Launch": "https://payhip.com/b/QxYnj"
+  }
+}
