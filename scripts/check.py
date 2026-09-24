@@ -1,7 +1,8 @@
 from pathlib import Path
 from html.parser import HTMLParser
-import json
+import json,subprocess,sys
 root=Path(__file__).resolve().parents[1]
+subprocess.run([sys.executable,str(root/"build.py")],check=True)
 class Check(HTMLParser):
  def __init__(self):super().__init__();self.h1=0;self.links=[];self.ids=set()
  def handle_starttag(self,tag,attrs):
@@ -9,7 +10,7 @@ class Check(HTMLParser):
   if tag=='h1':self.h1+=1
   if 'id' in d:self.ids.add(d['id'])
   if tag=='a':self.links.append(d.get('href',''))
-pages=list(root.rglob('index.html'))
+pages=[p for p in root.rglob('index.html') if 'preview-dist' not in p.parts]
 assert len(pages)==8
 for page in pages:
  c=Check();c.feed(page.read_text());assert c.h1==1,(page,c.h1)
