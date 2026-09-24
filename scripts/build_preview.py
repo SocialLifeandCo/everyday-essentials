@@ -1,8 +1,10 @@
 """Build a GitHub Pages project preview without changing the root-hostable source."""
 from pathlib import Path
 import shutil
+import subprocess
 
 root = Path(__file__).resolve().parents[1]
+subprocess.run(['python3', str(root / 'build.py')], check=True)
 out = root / 'preview-dist'
 base = '/everyday-essentials/'
 site_url = 'https://sociallifeandco.github.io/everyday-essentials/'
@@ -12,11 +14,14 @@ out.mkdir()
 for path in root.rglob('*'):
     if not path.is_file() or any(part in {'.git', '.github', 'preview-dist', '__pycache__'} for part in path.parts):
         continue
-    if path.suffix not in {'.html', '.css', '.js', '.json', '.svg', '.txt', '.xml'}:
+    if path.suffix not in {'.html', '.css', '.js', '.json', '.svg', '.txt', '.xml', '.jpeg'}:
         continue
     relative = path.relative_to(root)
     dest = out / relative
     dest.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix == '.jpeg':
+        shutil.copy2(path, dest)
+        continue
     content = path.read_text()
     if path.suffix == '.html':
         content = content.replace('href="/', f'href="{base}').replace('src="/', f'src="{base}')
