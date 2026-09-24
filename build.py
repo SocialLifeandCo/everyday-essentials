@@ -31,7 +31,10 @@ home+=section('Why Everyday Essentials','Creativity with a personal touch.','<p 
 home+=section('Questions','Need a little more information?',a('/faq/','Read the FAQs')+a('/contact/','Contact us','button ghost'))
 page('','Creative Products & Business Services','Explore custom products, digital categories, website design, Shopify and Etsy services from Everyday Essentials in DFW.',home)
 def shopcard(name,group):
- return '<article class="card shopcard" data-shop-category="'+html.escape(name)+'" data-group="'+group+'"><span class="eyebrow">Collection</span><h3>'+html.escape(name)+'</h3><p>Explore this collection when its exact Payhip category link is ready.</p><div class="shop-action"><span class="coming">Shop link coming soon</span></div></article>'
+ available=group=='categories' and name in COLLECTIONS and COLLECTIONS[name][1]>0
+ description='Browse available designs and products on Payhip.' if available else 'This collection is being prepared.'
+ status='Loading collection…' if available else 'Shop link coming soon'
+ return '<article class="card shopcard" data-shop-category="'+html.escape(name)+'" data-group="'+group+'"><span class="eyebrow">Collection</span><h3>'+html.escape(name)+'</h3><p>'+description+'</p><div class="shop-action"><span class="coming">'+status+'</span></div></article>'
 shop=hero('Shop Everyday Essentials','Find your kind of creative.','Browse by category. Available category buttons take you directly to Payhip for product browsing and checkout. Need personalization? Request a custom order.')
 shop+=section('Shop all','See everything currently available.','<p class="lead">Browse all publicly available products directly on Payhip.</p>'+a(PAYHIP,'Shop All on Payhip ↗'),'light')
 shop+=section('Shop by category','Products for moments big and small.',cards(shopcard(x,'categories') for x in C))
