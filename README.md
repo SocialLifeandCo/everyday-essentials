@@ -1,31 +1,24 @@
 # Everyday Essentials
 
-Production-oriented, dependency-free static website. No product checkout is handled by the site. The exact Payhip category destinations and public-visibility flags are configured in assets/shop-links.json. Empty and pending categories show a non-clickable coming-soon label.
+A static brand hub for Everyday Essentials. Product browsing and checkout use Payhip; custom orders and business inquiries use the existing Webflow forms. There is no backend or payment processing in this repository.
 
-## Preview and checks
+## Site map
 
-From this directory run: python3 build.py, then python3 -m http.server 4173
-Open http://localhost:4173/
-Run: python3 scripts/check.py
+- `/` — home and mobile service/product chooser
+- `/shop/` — available Payhip collections and product categories
+- `/shop/bundles/` — 40 planned digital bundles, grouped by theme; the existing 255+ bundle has a Payhip link
+- `/shop/graduation-bundles/` — currently available individual graduation templates
+- `/custom-orders/` — custom product request route
+- `/services/` — done-for-you service chooser
+- `/services/websites/`, `/services/shopify/`, `/services/etsy/`, `/services/payhip/`, `/services/add-ons/` — packages, pricing, policies
+- `/about/`, `/contact/`, `/faq/`, `/current-clients/`
 
-Do not open the files through file:// because shop links load from JSON over HTTP.
+## Develop and preview
 
-## Sitemap
+Run `python3 build.py` and serve the project root with `python3 -m http.server 4173`. Open `http://localhost:4173/`. GitHub Pages uses `.github/workflows/pages-preview.yml` and `scripts/build_preview.py` for a project-path preview, with search indexing disabled there. The Sites version uses its own `scripts/build_sites_preview.py` in the Sites checkout.
 
-Home /, Shop /shop/, Custom Orders /custom-orders/, Done-For-You Services /services/, About /about/, Contact /contact/, FAQ & Policies /faq/, Current Clients /current-clients/.
+`build.py` generates the HTML, `assets/shop-links.json`, sitemap and robots file. Edit `assets/bundles.json` for bundle descriptions. New Payhip bundle URLs belong in `BUNDLE_LINKS` in `build.py` until a separate link source is introduced; use `PAYHIP_LINK_PENDING` until a listing is published. Pending links render as non-clickable labels. Five public Payhip collections and six individual graduation product links are active; 39 new bundle links are pending. Service inquiries go to the existing Website Inquiry form.
 
-## Deployment
+## Production hosting
 
-Commit this directory to a GitHub repository. The HTML committed to this repository is a snapshot; `build.py` is the source of truth. For Cloudflare Pages, select no framework, set build command to `python3 build.py`, and output directory to `.`. For Vercel, configure an equivalent build command. Confirm clean directory URLs resolve on the chosen host. Connect the domain and enable HTTPS through the host. The GitHub Pages project preview uses `scripts/build_preview.py` and carries a noindex tag; use a production build for the final domain.
-
-Before launch: replace REPLACE_WITH_DOMAIN in HTML, sitemap.xml, and robots.txt with the real domain; add any new verified exact Payhip category links to assets/shop-links.json and set publiclyVisible only once listings are actually public; verify the three website-related Webflow form destinations and test submissions; test the active Custom Order Request form; verify the working Facebook business page URL and add it to the footer; add approved real product photos, valid testimonials if available, business contact details if desired, and customer visibility and purchase readiness of the three Etsy Store Setup products. Their public service cards currently route to the Website Inquiry form because the Payhip products are owner-only. Review final privacy, refund, fulfillment, and digital product policies. Check Payhip checkout and mobile widths 375, 768, 1024, and 1440 px.
-
-## External links used
-
-Custom orders: https://everydayessentials4-orders.webflow.io/ (Webflow homepage Custom Order Request form; user confirmed this is the order form to use).
-Business inquiry: https://everydayessentials4-orders.webflow.io/website-inquiry
-Client onboarding: https://everydayessentials4-orders.webflow.io/website-client-onboarding
-Client approval: https://everydayessentials4-orders.webflow.io/website-review-approval
-Instagram: https://www.instagram.com/everydayessentials_4/
-Facebook: omitted until a working page URL is verified.
-Payhip Etsy Store Setup packages: Mini Launch https://payhip.com/b/F0wuT ; Store Launch https://payhip.com/b/Fq8uv ; Business Launch https://payhip.com/b/QxYnj . Shop All and five active categories supplied: Digital Products (11), Party & Events (10), Seasonal Products (10), Custom Gifts (2), Business & Branding (1). Four category URLs are configured but their listings are currently empty or nonpublic: Beauty, Memorial Products, Custom Apparel, Done-For-You Etsy Stores. Drinkware, Flags & Banners, Graduation & Prom, and nine digital subcategories still need exact URLs.
+For Cloudflare Pages, use build command `python3 build.py` and output directory `.`. Before connecting the final domain, replace `REPLACE_WITH_DOMAIN` in the generated canonical URLs, sitemap and robots file with the actual production domain; ideally configure that through a build setting. Verify direct loading of every route, Webflow form submissions, Payhip checkout, and mobile interactions on the chosen host. Add the 39 bundle Payhip URLs as those listings become public. The present ChatGPT Sites publication is an interim public preview and does not deploy from this GitHub repository.
