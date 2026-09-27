@@ -1,0 +1,748 @@
+[
+  {
+    "id": "ultimate-graduation-business-bundle",
+    "category": "Graduation & School",
+    "name": "Ultimate Graduation Business Bundle",
+    "regularPrice": "29.99",
+    "saleTarget": "19.99",
+    "plannedContents": [
+      "Grad Bag Hang Tags",
+      "Grad Banners Tall",
+      "Grad Box Templates",
+      "Grad Brochure",
+      "Grad Buttons",
+      "Grad Buttons + Brochure",
+      "Grad Cake Toppers",
+      "Grad Chip Bags",
+      "Grad Fans (all variations)",
+      "Grad Flyers",
+      "Grad Gift Bag Stickers",
+      "Grad Gift Bags",
+      "Grad Hang Tags",
+      "Grad Lanyards",
+      "Grad Lip Gloss Cards",
+      "Grad Mouse Pads",
+      "Grad Newspapers",
+      "Grad Newspaper & Wine Labels",
+      "Grad Newspaper 2026",
+      "Grad Newspaper Fans",
+      "Grad Posters",
+      "Grad Price Lists",
+      "Grad Shirts",
+      "Grad Stoles",
+      "Grad Tickets",
+      "Grad Tumbler",
+      "Graduation Banner",
+      "Graduation Landing Page",
+      "Graduation Last Lap",
+      "Graduation Thank You",
+      "Graduation clipart"
+    ]
+  },
+  {
+    "id": "graduation-party-favor-bundle",
+    "category": "Graduation & School",
+    "name": "Graduation Party Favor Bundle",
+    "regularPrice": "17.99",
+    "saleTarget": "11.99–12.99",
+    "plannedContents": [
+      "Grad Box Templates",
+      "Grad Cake Toppers",
+      "Grad Chip Bags",
+      "Grad Gift Bag Stickers",
+      "Grad Gift Bags",
+      "Grad Hang Tags",
+      "Grad Lip Gloss Cards",
+      "Grad Tickets",
+      "Grad Thank You",
+      "Grad Newspaper pieces"
+    ]
+  },
+  {
+    "id": "graduation-fan-mega-bundle",
+    "category": "Graduation & School",
+    "name": "Graduation Fan Mega Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "Grad Fan Pink/Teal",
+      "Grad Fans",
+      "Grad Fans variation #2",
+      "Grad Fans 2",
+      "Grad Fans 2026",
+      "Grad Fans Pink",
+      "Grad Fans Sports",
+      "Kids Grad Fans",
+      "Kids Grad Fans variation",
+      "Grad Newspaper Fans",
+      "Grad Kids Fan & Button Set"
+    ]
+  },
+  {
+    "id": "senior-shirt-design-bundle",
+    "category": "Graduation & School",
+    "name": "Senior Shirt & Design Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Senior 2026 Bundle (5 designs)",
+      "Senior Design Bundle (25 designs)",
+      "Senior Shirt Design (4 designs)",
+      "Senior Shirts",
+      "Grad Shirt",
+      "Grad Shirts",
+      "Grad Bundle Blue Varsity",
+      "Grad Bundle Lime Green",
+      "Grad Bundle Pink Leopard Heart",
+      "Grad Bundle Pink Rose",
+      "Grad Bundle Red Rose"
+    ]
+  },
+  {
+    "id": "graduation-printables-bundle",
+    "category": "Graduation & School",
+    "name": "Graduation Printables Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "9.99",
+    "plannedContents": [
+      "Grad Newspaper",
+      "Grad Newspaper 2026",
+      "Grad Newspaper Fans",
+      "Grad Newspaper & Wine Labels",
+      "Grad Brochure",
+      "Grad Buttons + Brochure",
+      "Grad Posters",
+      "Grad Flyers",
+      "Grad Thank You",
+      "Graduation Landing Page"
+    ]
+  },
+  {
+    "id": "kids-graduation-bundle",
+    "category": "Graduation & School",
+    "name": "Kids Graduation Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99–8.99",
+    "plannedContents": [
+      "Kids Grad Fans",
+      "Kids Grad Fans variation",
+      "Grad Gift Bags for Kids",
+      "Grad Hang Tags Kids",
+      "Grad Kids Fan & Button Set",
+      "Grad Cake Toppers",
+      "Grad Chip Bags",
+      "Grad Tickets"
+    ]
+  },
+  {
+    "id": "back-to-school-mega-bundle",
+    "category": "Graduation & School",
+    "name": "Back-to-School Mega Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Back to School Boards",
+      "all four Back to School Design groups",
+      "Back to School Faux Patches",
+      "Back to School Flyers",
+      "Back to School Junk Bundle",
+      "Back to School Rainbow Shirt",
+      "Back to School Shirts",
+      "Composition Bundle",
+      "Composition Notebooks",
+      "Grade Level Designs",
+      "School Banner",
+      "School Faux Patch Bundle",
+      "School Shield Designs",
+      "School T-Shirts"
+    ]
+  },
+  {
+    "id": "teacher-canva-template-bundle",
+    "category": "Graduation & School",
+    "name": "Teacher Canva Template Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "9.99",
+    "plannedContents": [
+      "Teacher Box Template",
+      "Teacher Bundles",
+      "Teacher Files",
+      "Dollar Tree Teacher Vase Wraps",
+      "Back-to-School Flyers",
+      "Composition Notebooks",
+      "Composition Bundle",
+      "School Banner"
+    ]
+  },
+  {
+    "id": "school-spirit-design-bundle",
+    "category": "Graduation & School",
+    "name": "School Spirit Design Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "9.99",
+    "plannedContents": [
+      "School Faux Patch Bundle",
+      "School Shield Designs",
+      "School T-Shirts",
+      "Grade Level Designs",
+      "School Banner",
+      "Back-to-School Faux Patches",
+      "Back-to-School Shirts"
+    ]
+  },
+  {
+    "id": "ultimate-party-favor-business-bundle",
+    "category": "Party & Birthday",
+    "name": "Ultimate Party Favor Business Bundle",
+    "regularPrice": "24.99",
+    "saleTarget": "14.99–17.99",
+    "plannedContents": [
+      "20 Cup Stickers",
+      "Baddie Stickers",
+      "Cake Toppers",
+      "Chip Bag Bundle",
+      "Cup & Fan Bundle",
+      "all Cup Sticker sets",
+      "Gift Bag Labels",
+      "Gum Wrapper Template",
+      "Hershey Bar Purse",
+      "Hershey Wrappers",
+      "Liquor Labels",
+      "Mini Gable Box",
+      "Party Hat Templates",
+      "Ramen Noodle Template",
+      "Shot Glass Template",
+      "Tic Tac Template",
+      "Treat Reels",
+      "Lollipop Party templates if included in newer drafts",
+      "Party buckets/containers",
+      "Lip Gloss Cards"
+    ]
+  },
+  {
+    "id": "birthday-girl-mega-bundle",
+    "category": "Party & Birthday",
+    "name": "Birthday Girl Mega Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Birthday Girl",
+      "Birthday Girl Bundle",
+      "Birthday Mega Bundle",
+      "Birthday Pink Martini",
+      "Birthday Pastel",
+      "Leopard Birthday Bundle",
+      "Pink Birthday Bundle",
+      "Pink Cherry Birthday Bundle",
+      "Pink Leopard Birthday Bundle",
+      "Pink Leopard Party Bundle",
+      "Posh Palm Party Girl",
+      "TikTok Birthday Bundle",
+      "Party Bundle Pink Leopard Money Rose",
+      "Party Bundle Pink & Orange",
+      "Party Bundle Pink Lollipop"
+    ]
+  },
+  {
+    "id": "birthday-newspaper-magazine-bundle",
+    "category": "Party & Birthday",
+    "name": "Birthday Newspaper & Magazine Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "Birthday Chronicles",
+      "Birthday Chronicles variation",
+      "Birthday Newspaper",
+      "Newspaper Birthday Bundle",
+      "Birthday Posters",
+      "Birthday Tickets",
+      "Magazine templates suitable for birthdays"
+    ]
+  },
+  {
+    "id": "birthday-apparel-accessories-bundle",
+    "category": "Party & Birthday",
+    "name": "Birthday Apparel & Accessories Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99–8.99",
+    "plannedContents": [
+      "Birthday Shirts",
+      "Birthday Shirts & Lanyards",
+      "Birthday Girl shirt designs",
+      "Birthday Hat Bundle",
+      "Party Hat Templates",
+      "Cup & Fan Bundle"
+    ]
+  },
+  {
+    "id": "party-games-bundle",
+    "category": "Party & Birthday",
+    "name": "Party Games Bundle",
+    "regularPrice": "9.99",
+    "saleTarget": "5.99",
+    "plannedContents": [
+      "Game Board",
+      "Christmas Game Board",
+      "Gingerbread Game Board Bundle",
+      "Valentine’s Day Game Board",
+      "Memorial Game Boards"
+    ]
+  },
+  {
+    "id": "wine-bottle-label-bundle",
+    "category": "Party & Birthday",
+    "name": "Wine & Bottle Label Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99",
+    "plannedContents": [
+      "Liquor Labels",
+      "Liquor Labels 2",
+      "Wine Label Bundle",
+      "Valentine Wine Labels",
+      "Valentine Wine Labels 2",
+      "Zodiac Wine Labels",
+      "Grad Newspaper & Wine Labels"
+    ]
+  },
+  {
+    "id": "ultimate-valentines-day-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Ultimate Valentine’s Day Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Pink Valentine Bundle",
+      "Red Valentine Flyers",
+      "Men’s Valentine Box",
+      "Valentine Boxes",
+      "Valentine Bundle",
+      "Valentine Bundle Be Mine",
+      "Valentine Memorial Bundle",
+      "Valentine Wine Labels",
+      "Valentine Wine Labels 2",
+      "Valentine’s Game Board",
+      "large Valentine card collection"
+    ]
+  },
+  {
+    "id": "christmas-business-template-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Christmas Business Template Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "11.99–12.99",
+    "plannedContents": [
+      "Christmas Box Templates",
+      "Christmas Flyer Bundle",
+      "Christmas Placemat",
+      "Christmas Shirt Bundle",
+      "Christmas Coupons",
+      "Santa Sack Bundle",
+      "Santa Sacks Red/Pink",
+      "Santa Snow Globe Card",
+      "Christmas Game Board",
+      "Christmas Gift Bags",
+      "Christmas Shirts & Cups",
+      "Gingerbread Game Board",
+      "Jolly Jingle Flyer Bundle"
+    ]
+  },
+  {
+    "id": "mothers-day-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Mother’s Day Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99",
+    "plannedContents": [
+      "Mom Bundle",
+      "Mother’s Day Boxes",
+      "Mother’s Day Gift Bags",
+      "Dollar Tree Vase Wraps Mother’s/Father’s Day",
+      "Dollar Tree Vase Wraps"
+    ]
+  },
+  {
+    "id": "fathers-day-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Father’s Day Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "Dadflix",
+      "Father’s Day Box",
+      "Father’s Day Boxes",
+      "Father’s Day Gift Cards",
+      "Father’s Day Newspaper",
+      "Father’s Day Shirts",
+      "Father’s Day Gift Bags",
+      "Dollar Tree Vase Wraps Mother’s/Father’s Day",
+      "Father’s Day money-card templates"
+    ]
+  },
+  {
+    "id": "easter-kids-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Easter Kids Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99",
+    "plannedContents": [
+      "Easter Name Label",
+      "Easter Sack",
+      "Kids Easter Kit",
+      "Teen Easter Treat Cards",
+      "appropriate gift bag/treat-card templates"
+    ]
+  },
+  {
+    "id": "halloween-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Halloween Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99",
+    "plannedContents": [
+      "Boo Bag Labels",
+      "Halloween Candy Grams",
+      "Halloween Slime Bundle",
+      "Halloween Names",
+      "appropriate candy/treat templates",
+      "party hat/cup/sticker templates as bonus blanks"
+    ]
+  },
+  {
+    "id": "seasonal-shirt-design-bundle",
+    "category": "Holidays & Seasonal",
+    "name": "Seasonal Shirt & Design Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "4th of July Bundle",
+      "Juneteenth Designs",
+      "Christmas Shirt Bundle",
+      "Father’s Day Shirts",
+      "New Year Shirts & Hats",
+      "Breast Cancer Bundle",
+      "Halloween Names"
+    ]
+  },
+  {
+    "id": "small-business-starter-bundle",
+    "category": "Business & Branding",
+    "name": "Small Business Starter Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Business Cards & Logos",
+      "Cell Phone Business Cards",
+      "Photo Logos",
+      "Digital Gift Card Templates",
+      "Thank You Cards",
+      "Money Card Templates",
+      "Template Delivery Forms",
+      "Instagram Card Templates",
+      "Website Banners",
+      "8 editable digital thank-you cards"
+    ]
+  },
+  {
+    "id": "flyer-business-mega-bundle",
+    "category": "Business & Branding",
+    "name": "Flyer Business Mega Bundle",
+    "regularPrice": "24.99",
+    "saleTarget": "14.99",
+    "plannedContents": [
+      "10 Flyer Bundle",
+      "60 Flyer Bundle",
+      "Be My Client Flyers",
+      "Black Friday Flyer Bundle",
+      "Jolly Jingle Flyer Bundle",
+      "Social Media Cards",
+      "Pink Flyer Bundles",
+      "Hair Flyers",
+      "Lock-In Hair Flyers",
+      "Newspaper Flyer Bundle",
+      "Spring Flyers",
+      "Tax Flyer Bundle",
+      "Fall Glam Flyer Bundle",
+      "Red Valentine Flyers",
+      "Christmas Flyer Bundle",
+      "Grad Flyers"
+    ]
+  },
+  {
+    "id": "beauty-business-marketing-bundle",
+    "category": "Business & Branding",
+    "name": "Beauty Business Marketing Bundle",
+    "regularPrice": "17.99",
+    "saleTarget": "10.99–11.99",
+    "plannedContents": [
+      "Hair Flyers",
+      "Lock-In Hair Flyers",
+      "Be My Client Flyers",
+      "Pink Flyer Bundles",
+      "Social Media Cards",
+      "Business Cards",
+      "Instagram Card Templates",
+      "Digital Gift Cards",
+      "Thank You Cards",
+      "Website Banners"
+    ]
+  },
+  {
+    "id": "website-branding-bundle",
+    "category": "Business & Branding",
+    "name": "Website & Branding Bundle",
+    "regularPrice": "24.99",
+    "saleTarget": "14.99",
+    "plannedContents": [
+      "Beacons Website Themes",
+      "Canva Newspaper Website",
+      "Canva Website",
+      "Canva Website Template",
+      "Website Banners",
+      "Business Cards & Logos",
+      "Photo Logos",
+      "Cell Phone Business Cards",
+      "Instagram Cards",
+      "Template Delivery Forms"
+    ]
+  },
+  {
+    "id": "content-creator-designer-resource-bundle",
+    "category": "Business & Branding",
+    "name": "Content Creator / Designer Resource Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "11.99–12.99",
+    "plannedContents": [
+      "Clipart & Image Prompts",
+      "Stock Model Prompts",
+      "Photo Logos",
+      "Website Banners",
+      "Social Media Cards",
+      "60 Flyer Bundle",
+      "10 Flyer Bundle",
+      "Template Delivery Forms"
+    ]
+  },
+  {
+    "id": "t-shirt-designer-mega-bundle",
+    "category": "Apparel & Designs",
+    "name": "T-Shirt Designer Mega Bundle",
+    "regularPrice": "24.99",
+    "saleTarget": "14.99",
+    "plannedContents": [
+      "Cash Shirt Designs",
+      "CashApp Shirt Bundle",
+      "High Maintenance Shirt Bundle",
+      "Little Miss Shirts",
+      "Little Miss Shirts 2",
+      "Money Shirt Design",
+      "Shirt Bundle",
+      "Zodiac Shirts",
+      "Senior Shirts",
+      "Senior Shirt Design",
+      "Senior 2026 Shirts",
+      "Grad Shirts",
+      "Christmas Shirts",
+      "Father’s Day Shirts",
+      "Back-to-School Shirts",
+      "School Shirts"
+    ]
+  },
+  {
+    "id": "zodiac-mega-bundle",
+    "category": "Apparel & Designs",
+    "name": "Zodiac Mega Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "11.99–12.99",
+    "plannedContents": [
+      "Zodiac Bundle",
+      "Zodiac Bundle variation",
+      "Zodiac Gold Glitter",
+      "Zodiac Graffiti",
+      "Zodiac Neon",
+      "Zodiac Queen",
+      "Zodiac Shirts",
+      "Zodiac Wine Labels",
+      "Leo Szn"
+    ]
+  },
+  {
+    "id": "faux-patch-embroidery-design-bundle",
+    "category": "Apparel & Designs",
+    "name": "Faux Patch / Embroidery Design Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99",
+    "plannedContents": [
+      "Faux Embroidery Patches",
+      "School Faux Patch Bundle",
+      "Back-to-School Faux Patches",
+      "School Shield Designs"
+    ]
+  },
+  {
+    "id": "ultimate-homecoming-bundle",
+    "category": "Homecoming & Prom",
+    "name": "Ultimate Homecoming Bundle",
+    "regularPrice": "19.99",
+    "saleTarget": "12.99",
+    "plannedContents": [
+      "Homecoming Bundle Parts 1–3",
+      "Homecoming Magazine Bundle",
+      "Homecoming Vote Buttons",
+      "School Banner",
+      "School Shirt Designs",
+      "Magazine Templates",
+      "Poster/banner designs suited to homecoming"
+    ]
+  },
+  {
+    "id": "prom-template-bundle",
+    "category": "Homecoming & Prom",
+    "name": "Prom Template Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "Prom Banner",
+      "Prom Banner variation",
+      "Prom Banners",
+      "Magazine templates",
+      "Passport Invitations",
+      "Life Size Check Templates",
+      "appropriate photo/poster designs"
+    ]
+  },
+  {
+    "id": "complete-memorial-business-bundle",
+    "category": "Memorial",
+    "name": "Complete Memorial Business Bundle",
+    "regularPrice": "24.99",
+    "saleTarget": "14.99–16.99",
+    "plannedContents": [
+      "Memorial Bundles",
+      "Memorial Candles",
+      "Men’s Memorial Candles",
+      "Memorial Pillows",
+      "Memorial Shirts",
+      "Memorial Buttons",
+      "Memorial Programs",
+      "Memorial Game Boards",
+      "Pocket Tissue",
+      "Newspaper Stories Templates",
+      "Pillar Candles",
+      "Valentine Memorial Bundle"
+    ]
+  },
+  {
+    "id": "memorial-program-keepsake-bundle",
+    "category": "Memorial",
+    "name": "Memorial Program & Keepsake Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "Memorial Programs",
+      "Newspaper Stories Templates",
+      "Memorial Buttons",
+      "Pocket Tissue",
+      "Memorial Game Boards"
+    ]
+  },
+  {
+    "id": "memorial-product-seller-bundle",
+    "category": "Memorial",
+    "name": "Memorial Product Seller Bundle",
+    "regularPrice": "17.99",
+    "saleTarget": "10.99",
+    "plannedContents": [
+      "Memorial Candles",
+      "Men’s Memorial Candles",
+      "Pillar Candles",
+      "Memorial Pillows",
+      "Memorial Shirts",
+      "Memorial Buttons",
+      "Pocket Tissue"
+    ]
+  },
+  {
+    "id": "money-gift-template-bundle",
+    "category": "Gifts & Product Templates",
+    "name": "Money Gift Template Bundle",
+    "regularPrice": "12.99",
+    "saleTarget": "7.99",
+    "plannedContents": [
+      "Money Envelopes",
+      "Money Card Templates",
+      "Money Shirt Design",
+      "Digital Gift Card Templates",
+      "Father’s Day Gift Cards",
+      "money-based Valentine’s/party designs"
+    ]
+  },
+  {
+    "id": "custom-gift-seller-template-bundle",
+    "category": "Gifts & Product Templates",
+    "name": "Custom Gift Seller Template Bundle",
+    "regularPrice": "17.99",
+    "saleTarget": "10.99–11.99",
+    "plannedContents": [
+      "Walmart Tumbler Wrap",
+      "Dollar Tree Vase Wraps",
+      "Hand Sanitizer Templates",
+      "Lighter Wrap Templates",
+      "Shot Glass Template",
+      "Lip Gloss Cards",
+      "Money Envelopes",
+      "Journal Covers",
+      "Pillar Candle designs"
+    ]
+  },
+  {
+    "id": "magazine-newspaper-mega-bundle",
+    "category": "Gifts & Product Templates",
+    "name": "Magazine & Newspaper Mega Bundle",
+    "regularPrice": "17.99",
+    "saleTarget": "10.99–11.99",
+    "plannedContents": [
+      "Magazine Bundle",
+      "Magazine Template 1",
+      "Magazine Template 2",
+      "Homecoming Magazine",
+      "Birthday Newspaper",
+      "Birthday Chronicles",
+      "Newspaper Birthday Bundle",
+      "Grad Newspaper",
+      "Grad Newspaper 2026",
+      "Grad Newspaper Fans",
+      "Father’s Day Newspaper",
+      "Newspaper Stories Templates",
+      "Canva Newspaper Website",
+      "Newspaper Flyer Bundle"
+    ]
+  },
+  {
+    "id": "banner-sign-template-bundle",
+    "category": "Gifts & Product Templates",
+    "name": "Banner & Sign Template Bundle",
+    "regularPrice": "14.99",
+    "saleTarget": "8.99–9.99",
+    "plannedContents": [
+      "90s Banner",
+      "Banner Bundle",
+      "School Banner",
+      "Graduation Banner",
+      "Grad Banners Tall",
+      "Prom Banners",
+      "Website Banners",
+      "Life Size Check Templates",
+      "Graduation Last Lap"
+    ]
+  },
+  {
+    "id": "ultimate-255-editable-canva-template-bundle",
+    "category": "All Templates",
+    "name": "Ultimate 255+ Editable Canva Template Bundle",
+    "regularPrice": "39.99",
+    "saleTarget": "",
+    "plannedContents": [
+      "255+ editable Canva templates in the existing mega bundle listing"
+    ]
+  }
+]

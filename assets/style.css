@@ -2,3 +2,27 @@
 
 /* Compact original logo in the existing navigation layout. */
 .brand{display:flex;align-items:center;gap:.5rem;flex-shrink:0}.brand-mark{display:block;width:40px;height:40px;flex:none;position:relative;overflow:hidden;background:#fff}.brand-mark img{position:absolute;max-width:none;width:124px;height:124px;left:-42px;top:-31px}.brand-type{display:block;white-space:nowrap}.brand-type span{display:block}@media(max-width:600px){.brand-mark{width:34px;height:34px}.brand-mark img{width:106px;height:106px;left:-36px;top:-27px}}
+
+/* Compact service chooser keeps the first mobile decision within easy reach. */
+.compact-hero{padding:52px 0 0}.compact-hero h1{font-size:clamp(2.6rem,5vw,5.2rem);max-width:850px}.compact-hero+.section{padding-top:28px}
+.choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;max-width:1050px}.choice{display:flex;flex-direction:column;gap:.45rem;min-height:180px;padding:1.45rem;border:1px solid var(--line);border-radius:20px;background:#fff;text-decoration:none;transition:transform .2s,border-color .2s}.choice:hover{transform:translateY(-2px);border-color:#bd9a81}.choice:focus-visible{outline:3px solid #9b7055;outline-offset:3px}.choice .badge{margin:0}.choice strong{font:700 1.45rem/1.15 Arial,sans-serif;letter-spacing:-.04em}.choice span:nth-child(3){color:var(--muted);line-height:1.35}.choice b{margin-top:auto;color:#916c56;font-size:.88rem}
+@media(max-width:600px){.choice-grid{gap:.65rem}.choice{padding:1rem;min-height:172px}.choice .badge{font-size:.61rem;letter-spacing:.04em}.choice strong{font-size:1.12rem}.choice span:nth-child(3){font-size:.79rem}.choice b{font-size:.75rem}.compact-hero{padding:42px 0 0}.compact-hero+.section{padding-top:20px}}
+.home-secondary{margin-top:1.25rem}
+@media(max-width:600px){.home-secondary{display:grid;grid-template-columns:1fr;gap:.25rem}.home-secondary .button{width:100%;margin:.2rem 0}.compact-hero h1{font-size:clamp(2.6rem,10vw,4rem)}.compact-hero .lead{margin-bottom:0}}
+.choice{min-width:0;overflow-wrap:anywhere}
+
+/* The bundle catalog starts collapsed so it stays easy to browse on a phone. */
+.bundle-group{border:1px solid var(--line);border-radius:18px;background:white;margin:0 0 1rem;overflow:hidden}
+.bundle-group>summary{cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:64px;padding:1rem 1.3rem;font-size:1.12rem;font-weight:800;list-style:none}
+.bundle-group>summary::-webkit-details-marker{display:none}
+.bundle-group>summary::after{content:'+';font-size:1.4rem;margin-left:auto}
+.bundle-group[open]>summary::after{content:'−'}
+.bundle-group>summary small{font-size:.82rem;color:var(--muted);font-weight:600;white-space:nowrap}
+.bundle-group>.grid{padding:0 1rem 1rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+.bundle-card{background:var(--cream)}
+.bundle-card .price{font-size:1.15rem}
+.bundle-contents{margin:1.1rem 0;flex:1}
+.bundle-contents summary{cursor:pointer;min-height:44px;font-weight:800;color:#805f4e}
+.bundle-contents ul{padding-left:1.2rem;margin:.4rem 0 1rem;line-height:1.5}
+.bundle-action{margin-top:auto}
+@media(max-width:700px){.bundle-group>.grid{grid-template-columns:1fr}.bundle-group>summary{padding:1rem}.bundle-group>.grid{padding:0 .7rem .7rem}}
