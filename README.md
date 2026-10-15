@@ -1,24 +1,25 @@
 # Everyday Essentials
 
-A static brand hub for Everyday Essentials. Product browsing and checkout use Payhip; custom orders and business inquiries use the existing Webflow forms. There is no backend or payment processing in this repository.
+Static brand hub for products and done-for-you services. Product checkout is handled by Payhip; custom orders and service inquiries use the linked Webflow forms. `build.py` and `visibility.py` are the source of truth. The generated HTML is checked into the project for hosts that serve static files directly.
 
-## Site map
+## Preview and checks
 
-- `/` — home and mobile service/product chooser
-- `/shop/` — available Payhip collections and product categories
-- `/shop/bundles/` — 40 planned digital bundles, grouped by theme; the existing 255+ bundle has a Payhip link
-- `/shop/graduation-bundles/` — currently available individual graduation templates
-- `/custom-orders/` — custom product request route
-- `/services/` — done-for-you service chooser
-- `/services/websites/`, `/services/shopify/`, `/services/etsy/`, `/services/payhip/`, `/services/add-ons/` — packages, pricing, policies
-- `/about/`, `/contact/`, `/faq/`, `/current-clients/`
+Run `python3 scripts/build_sites_preview.py` to generate the Sites-ready `dist/` folder. Run `python3 scripts/check.py` for 18-page navigation, SEO-tag, anchor, image-alt and pending-link checks. Run `node --check assets/site.js` for the menu and page-navigation script. Serve the output over HTTP, not `file://`.
 
-## Develop and preview
+## Routes
 
-Run `python3 build.py` and serve the project root with `python3 -m http.server 4173`. Open `http://localhost:4173/`. GitHub Pages uses `.github/workflows/pages-preview.yml` and `scripts/build_preview.py` for a project-path preview, with search indexing disabled there. The Sites version uses its own `scripts/build_sites_preview.py` in the Sites checkout.
+`/`, `/shop/`, `/shop/digital/`, `/shop/bundles/`, `/shop/graduation-bundles/`, `/custom-orders/`, `/services/`, `/services/websites/`, `/services/seo/`, `/services/shopify/`, `/services/etsy/`, `/services/payhip/`, `/services/tax-credit/`, `/services/add-ons/`, `/about/`, `/contact/`, `/faq/`, `/current-clients/`.
 
-`build.py` generates the HTML, `assets/shop-links.json`, sitemap and robots file. Edit `assets/bundles.json` for bundle descriptions. New Payhip bundle URLs belong in `BUNDLE_LINKS` in `build.py` until a separate link source is introduced; use `PAYHIP_LINK_PENDING` until a listing is published. Pending links render as non-clickable labels. Five public Payhip collections and six individual graduation product links are active; 39 new bundle links are pending. Service inquiries go to the existing Website Inquiry form.
+## Link configuration
 
-## Production hosting
+`build.py` centralizes the Payhip category/product URLs, the business-service page URLs, Webflow forms and social links. It writes `assets/shop-links.json` and `assets/bundles.json`. Do not replace pending bundle and category values with guessed links; cards remain non-clickable until an exact public Payhip URL is confirmed. The $99 Google + AI Visibility Audit uses `https://payhip.com/b/2FdZQ`, and the four fixed-price website choices use `https://payhip.com/b/DR2zv`.
 
-For Cloudflare Pages, use build command `python3 build.py` and output directory `.`. Before connecting the final domain, replace `REPLACE_WITH_DOMAIN` in the generated canonical URLs, sitemap and robots file with the actual production domain; ideally configure that through a build setting. Verify direct loading of every route, Webflow form submissions, Payhip checkout, and mobile interactions on the chosen host. Add the 39 bundle Payhip URLs as those listings become public. The present ChatGPT Sites publication is an interim public preview and does not deploy from this GitHub repository.
+## Deployment
+
+The current public Sites address is `https://everyday-essentials-hub-preview.kurvedbeauty.chatgpt.site/`. To deploy to another static host, set `SITE_ORIGIN` to the final HTTPS domain and run `python3 build.py`; this generates canonical URLs, sitemap and robots rules for that domain. Configure the host to serve directory index files at clean paths. The Sites workflow uses `scripts/build_sites_preview.py` and publishes `dist/`.
+
+Before connecting a final domain, confirm the domain and DNS ownership, test Webflow form delivery and a real Payhip purchase/delivery with an authorized transaction, review policies, and replace any still-pending product/bundle links only after their public listings exist. Monthly visibility checkout is not yet available on Payhip; the site directs interested visitors to inquiry. Do not represent a pre-checkout page inspection as a successful payment or delivered inquiry.
+
+## GitHub Pages preview
+
+The repository retains `.github/workflows/pages-preview.yml`. It runs `python3 scripts/build_preview.py` and publishes `preview-dist/` under `/everyday-essentials/` with search indexing disabled. The public Sites publication is maintained separately.

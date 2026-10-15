@@ -1,1 +1,4 @@
 preview-dist/
+dist/
+__pycache__/
+*.tar.gz
