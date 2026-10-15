@@ -1,10 +1,18 @@
-const menuButton = document.getElementById('menu');
-const nav = document.getElementById('nav');
+let menuButton = document.getElementById('menu');
+let nav = document.getElementById('nav');
 
-menuButton?.addEventListener('click', () => {
-  const open = menuButton.getAttribute('aria-expanded') !== 'true';
-  menuButton.setAttribute('aria-expanded', String(open));
-  nav.classList.toggle('open', open);
+function updateBottomNavigation() {
+ document.querySelectorAll('.bottom-nav a').forEach(link => {
+  const path = new URL(link.href).pathname;
+  const selected = path === '/' ? location.pathname === '/' : location.pathname.startsWith(path);
+  if (selected) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
+ });
+}
+document.addEventListener('click', event => {
+ const drawer = document.getElementById('site-drawer');
+ if (event.target.closest('#bottom-menu')) drawer.showModal();
+ if (event.target.closest('#close-drawer') || event.target === drawer) drawer.close();
+ if (event.target.closest('#site-drawer a')) drawer.close();
 });
 
 function shopCards() {
@@ -29,11 +37,16 @@ function renderPage(path) {
   if (!page) return false;
   document.getElementById('main').innerHTML = page.main;
   document.title = page.title;
+  if (page.header) document.querySelector('header').innerHTML = page.header;
+  document.body.dataset.area = page.area || 'main';
+  menuButton = document.getElementById('menu');
+  nav = document.getElementById('nav');
   document.querySelector('meta[name="description"]')?.setAttribute('content', page.description);
   document.querySelector('link[rel="canonical"]')?.setAttribute('href', location.origin + path);
   nav?.classList.remove('open');
   menuButton?.setAttribute('aria-expanded', 'false');
   shopCards();
+  updateBottomNavigation();
   window.scrollTo(0, 0);
   return true;
 }
@@ -51,3 +64,5 @@ document.addEventListener('click', event => {
 
 window.addEventListener('popstate', () => renderPage(location.pathname));
 shopCards();
+
+updateBottomNavigation();
